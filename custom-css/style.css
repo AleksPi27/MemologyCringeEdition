@@ -1,0 +1,41 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.container-fluid{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.container-fluid a{
+    padding: 0;
+    margin: 0;
+}
+.carousel{
+    height: 540px;
+    width: 720px;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-inner{
+    width: 100%;
+}
+.carousel-item{
+    height: 540px;
+    width: 720px;
+
+}
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+}
+
+.button-wrapper{
+    display: flex;
+    flex-flow: row;
+}
+.carousel-indicators{
+    display: flex;
+    gap: 4px;
+}
